@@ -12,13 +12,13 @@ public class Exercicio4 {
         int anos = scanner.nextInt();
         System.out.println("Informe os meses:");
         int meses = scanner.nextInt();
-        System.out.println("Informe os meses:");
+        System.out.println("Informe os dias:");
         int dias = scanner.nextInt();
 
         int calculoAnos = anos*365;
         int calculoMeses = meses*30;
         int totalDeDias = calculoAnos+calculoMeses+dias;
-        System.out.println("A sua idade é de "+totalDeDias+" dias");
+        System.out.println("Idade em dias: "+totalDeDias);
 
 
 

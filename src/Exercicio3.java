@@ -13,7 +13,7 @@ public class Exercicio3 {
         double salarioMinimo = 1212;
         double calculoQuantidadeDeSalariosMinimos = salario/salarioMinimo;
         int quantidadeDeSalariosMinimos = (int) Math.floor(calculoQuantidadeDeSalariosMinimos);
-        System.out.println(Math.floor(quantidadeDeSalariosMinimos));
+        System.out.println("Quantidade de salarios minimos recebidos: "+quantidadeDeSalariosMinimos);
 
     }
 
